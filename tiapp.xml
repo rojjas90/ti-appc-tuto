@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <id>com.rojas.test</id>
+    <name>test</name>
+    <version>1.0</version>
+    <publisher>dwit</publisher>
+    <url/>
+    <description/>
+    <copyright>2017 by dwit</copyright>
+    <icon>appicon.png</icon>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>19955eb1-bb31-4d33-9aaa-fdc4c6220fce</guid>
+    <property name="ti.ui.defaultunit" type="string">dp</property>
+    <property name="run-on-main-thread" type="bool">true</property>
+    <ios>
+        <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
+        <use-app-thinning>true</use-app-thinning>
+        <plist>
+            <dict>
+                <key>UISupportedInterfaceOrientations~iphone</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                </array>
+                <key>UISupportedInterfaceOrientations~ipad</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                    <string>UIInterfaceOrientationPortraitUpsideDown</string>
+                    <string>UIInterfaceOrientationLandscapeLeft</string>
+                    <string>UIInterfaceOrientationLandscapeRight</string>
+                </array>
+                <key>UIRequiresPersistentWiFi</key>
+                <false/>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+                <key>UIStatusBarHidden</key>
+                <false/>
+                <key>UIStatusBarStyle</key>
+                <string>UIStatusBarStyleDefault</string>
+            </dict>
+        </plist>
+    </ios>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs">ti.cloud</module>
+    </modules>
+    <deployment-targets>
+        <target device="iphone">false</target>
+        <target device="ipad">false</target>
+        <target device="android">true</target>
+        <target device="mobileweb">false</target>
+        <target device="windows">true</target>
+    </deployment-targets>
+    <sdk-version>6.0.1.GA</sdk-version>
+    <plugins>
+        <plugin version="1.0">ti.alloy</plugin>
+    </plugins>
+    <property name="appc-app-id" type="string">589c892db5e890bc33d5c4b1</property>
+    <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-development" type="string">bIzK5lWgy14q6QPOguJcfLOW5e4N7kww</property>
+    <property name="acs-oauth-key-development" type="string">T6TgItEUvmtjAYXIZ77BXFVgsIgCdA8D</property>
+    <property name="acs-api-key-development" type="string">96LRRgvjZdRAVFOCXUV9sj409OWAp7Am</property>
+    <property name="acs-username-development" type="string">appc_app_user_dev</property>
+    <property name="acs-password-development" type="string">1hV5Ae9lS4plrwQu0R</property>
+    <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-production" type="string">Anx8wwr6Km2CtGxCzJAVbtfcc1d8oYEq</property>
+    <property name="acs-oauth-key-production" type="string">eXWE1aMP9lkPlo4tgNCdEQrN2gGfsQGX</property>
+    <property name="acs-api-key-production" type="string">oQWs7HgqB66NfDsWkMZwSHWIgTF5Zbrm</property>
+    <property name="acs-username-production" type="string">appc_app_user</property>
+    <property name="acs-password-production" type="string">9P0IQavwZT5sGm6QrU</property>
+    <property name="appc-org-id" type="string">980618020286783</property>
+    <property name="appc-creator-user-id" type="string">6a129986-a633-46e7-9cbb-f6e586259a7b</property>
+</ti:app>
