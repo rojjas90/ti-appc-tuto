@@ -1,11 +1,16 @@
-function doClick(e) {
-    alert($.label.text);
-}
+ $.botonAbrirVentana.addEventListener('click', function(_evento) {
+     //  alert('Boton pinchado');
+     // abrir el controlador detalle
 
-// $.label.addEventListener('click', doClick);
+     // Crear una instancia del controlador detalle
+     var detalle = Alloy.createController('detalle', 'Rojas');
 
-$.label.addEventListener('click',function(e){
-	doClick(e);
-});
+     // Acceder a la vista asociada al controlador detalle
+     detalle = detalle.getView(); // detalle.xml
 
-$.index.open();
+     // Abrir esa vista
+     detalle.open();
+
+ });
+
+ $.index.open();
