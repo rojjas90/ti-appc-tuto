@@ -1,5 +1,9 @@
 <Alloy>
 	<Window class="container">
-		<Button id="botonAbrirVentana" title="Abrir ventana"/>
+
+		<Label id="label1">Hola uno</Label>
+		<Label id="label2">Hola dos</Label>
+
+		<!-- <Button id="botonAbrirVentana" title="Abrir ventana"/> -->
 	</Window>
 </Alloy>
