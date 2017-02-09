@@ -32,3 +32,8 @@
 	right: 10,
 	bottom: 5
 }
+"#datosContacto" : {
+	layout: "horizontal",
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE
+}
