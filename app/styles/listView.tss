@@ -1,0 +1,27 @@
+"#icon" : {
+    width: 50,
+    height: 50,
+    left: 0
+},
+"#title" : {
+    color: 'black',
+    font: {
+        fontFamily: 'Arial',
+        fontSize: 20,
+        fontWeight: 'bold'
+    },
+    left: 60,
+    top: 0
+},
+"#subtitle" : {
+    color: 'gray',
+    font: {
+        fontFamily: 'Arial',
+        fontSize: 14
+    },
+    left: 60,
+    top: 25
+}
+/*'Label' : {
+    color: '#000'
+}*/

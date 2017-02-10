@@ -37,3 +37,7 @@
 	width: Ti.UI.SIZE,
 	height: Ti.UI.SIZE
 }
+"#iconoTelefono" : {
+	width: 50,
+	right: 10
+}
